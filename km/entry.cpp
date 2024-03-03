@@ -311,11 +311,6 @@ bool hook_initalize()
 
 NTSTATUS DriverEntry(UINT64 hash, UINT64)
 {
-	if (hash != 0x1A3A3A7)
-	{
-		*(int*)0x18181818 = 0x1337;
-	}
-
 	uintptr_t base = utils::get_kernel_module("ntoskrnl.exe");
 	/*
 	uintptr_t addr = utils::find_pattern(base, "\x41\xB8\x00\x00\x00\x00\x48\x8B\xD6\x49\x8B\xCE\xE8\x00\x00\x00\x00\x48\x8B\xD8", "xx????xxxxxxx????xxx");
