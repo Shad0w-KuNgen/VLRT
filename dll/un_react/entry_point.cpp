@@ -195,7 +195,7 @@ void main_thread()
 		key_list[4] = KismetSystemStringLibrary::Conv_StringToName(xor_w(L"ThumbMouseButton2"));
 	}
 
-	hook::vmt(viewport_client, create_jmp_hook(post_render), 0x6B, &o_post_render, base + 0xAF18000);
+	hook::vmt(viewport_client, create_jmp_hook(post_render), 0x6B, &o_post_render);
 }
 
 BOOL APIENTRY entry_dll(HINSTANCE h_module, DWORD dw_reason, LPVOID lpv_reserved)
