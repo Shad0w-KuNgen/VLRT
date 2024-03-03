@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\utils">
+      <UniqueIdentifier>{8e921276-30f8-4bb9-997f-46f3e60a8a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ue4">
+      <UniqueIdentifier>{ebf6bce5-7427-42f8-99d0-355c61f6deac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\game">
+      <UniqueIdentifier>{56dea138-9245-429c-ba81-c4e5f373385a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\crt">
+      <UniqueIdentifier>{580a0ff1-e3d0-4d3b-80e8-ca5ad3d1cba0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xor.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>소스 파일\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="function.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="offset.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="decryption.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>소스 파일\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="crt.h">
+      <Filter>소스 파일\crt</Filter>
+    </ClInclude>
+    <ClInclude Include="class.h">
+      <Filter>소스 파일\ue4</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>소스 파일\crt</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>소스 파일\game</Filter>
+    </ClInclude>
+    <ClInclude Include="interface.h">
+      <Filter>소스 파일\ue4</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry_point.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
