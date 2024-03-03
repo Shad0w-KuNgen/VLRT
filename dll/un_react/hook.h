@@ -3,7 +3,7 @@
 
 namespace hook
 {
-	void vmt(void* addr, void* pDes, int index, void** ret, uint64_t vmt_dst)
+	void vmt(void* addr, void* pDes, int index, void** ret)
 	{
 		auto vtable = *(uint64_t**)addr;
 		int methods = 0;
